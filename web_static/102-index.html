@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>AirBnB clone</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="./styles/102-common.css">
+		<link rel="stylesheet" type="text/css" href="./styles/102-header.css">
+		<link rel="stylesheet" type="text/css" href="./styles/102-footer.css">
+		<link rel="stylesheet" type="text/css" href="./styles/102-filters.css">
+		<link rel="stylesheet" type="text/css" href="./styles/102-places.css">
+		<link rel="icon" type="image/icon" href="./images/icon.png">
+	</head>
+	<body class="body">
+		<header class ="header">
+			<div class="header_logo bg-icon"></div>
+		</header>
+
+		<div class="container">
+			<section class="filters">
+				<div class="filters_main">
+					<div class="locations filters_item">
+						<h3>States</h3>
+						<h4>Faker content</h4>
+						<!-- List of elements contained in the filter -->
+						<ul class="popover">
+							<li>
+								<h2>Arizona</h2>
+								<ul>
+									<li>Page</li>
+									<li>Page2</li>
+								</ul>
+							</li>
+
+							<li>
+								<h2>California</h2>
+								<ul>
+									<li>San Francisco</li>
+									<li>Los Altos</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+					<div class="amenities filters_item">
+						<h3>Amenities</h3>
+						<h4>Faker content</h4>
+						<!-- List of elements contained in the filter -->
+						<ul class="popover">
+							<li>Internet</li>
+							<li>TV</li>
+							<li>Kitchen</li>
+							<li>Iron</li>
+						</ul>
+					</div>
+				</div>
+
+				<button>
+					<svg class="icon_search" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px">
+					<path d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"/>
+				</svg>
+
+				</button>
+			</section>
+
+			<section class="places">
+				<h1>Places</h1>
+
+				<div class="places_main">
+					<article class="places_item grid_ctn">
+						<h2 class="grid_item">My Home</h2>
+						<div class="price_by_night grid_item">$80</div>
+						<div class="information grid_item">
+							<div class="max_guest">
+								<div class="icon bg-icon"></div>
+								5 Guests
+							</div>
+							<div class="number_rooms">
+								<div class="icon bg-icon"></div>
+								4 Bedroom
+							</div>
+							<div class="number_bathrooms">
+								<div class="icon bg-icon"></div>
+								2 Bathroom
+							</div>
+						</div>													
+						<div class="user grid_item left">
+							<p><span class="bold">Owner:</span> ElCristhian</p>
+						</div>
+						<div class="description grid_item left">
+							Ipsum voluptas impedit porro ex quis. Itaque ducimus voluptate laborum
+							necessitatibus veniam Maxime aperiam totam eveniet dolores
+							blanditiis Nulla animi nostrum minus facilis consequuntur ab
+							Earum tempore error aspernatur ullam
+						</div>
+						<div class="amenities grid_item left">
+							<h2>Amenities</h2>
+							<ul class="amenities_container">
+								<li class="amenities_item">
+									<div class="icon icon-tv bg-icon"></div>TV
+								</li>
+								<li class="amenities_item">
+									<div class="icon icon-wifi bg-icon"></div>WIFI
+								</li>
+								<li class="amenities_item">
+									<div class="icon icon-pets bg-icon"></div>Pets Friendly
+								</li>
+							</ul>
+						</div>
+						<div class="reviews grid_item left">
+							<h2>Reviews</h2>
+							<ul class="reviews_container">
+								<li class="reviews_item">
+									<h3>From Henry Spencer the 27th January 2017</h3>
+									<p>
+										Ipsum possimus aut porro similique magni dolorem cupiditate tenetur. Voluptates!
+									</p>
+								</li>
+								<li class="reviews_item">
+									<h3>From Henry Spencer the 27th January 2017</h3>
+									<p>
+										Dolor cupiditate blanditiis dolorum aliquid quam? Eveniet in cumque beatae libero consequatur.
+									</p>
+								</li>
+								<li class="reviews_item">
+									<h3>From Henry Spencer the 27th January 2017</h3>
+									<p>
+										Consectetur voluptates necessitatibus consequatur natus aut Nam tempora.
+									</p>
+								</li>
+							</ul>
+						</div>
+					</article>
+
+					<article class="places_item grid_ctn">
+						<h2 class="grid_item">Tiny house</h2>
+						<div class="price_by_night grid_item">$65</div>
+						<div class="information grid_item">
+							<div class="max_guest">
+								<div class="icon bg-icon"></div>
+								2 Guests
+							</div>
+							<div class="number_rooms">
+								<div class="icon bg-icon"></div>
+								1 Bedroom
+							</div>
+							<div class="number_bathrooms">
+								<div class="icon bg-icon"></div>
+								1 Bathroom
+							</div>
+						</div>
+						<div class="user grid_item left">
+							<p><span class="bold">Owner:</span> ElGrillo</p>
+						</div>
+						<div class="description grid_item left">
+							Lorem dignissimos laboriosam dolorem corporis consectetur possimus
+							Nemo rem quis asperiores et nesciunt veritatis.
+							Aliquid deserunt expedita voluptatem assumenda repudiandae Veritatis
+							impedit aperiam dolore nam nemo Pariatur eveniet non cum?
+						</div>
+						<div class="amenities grid_item left">
+							<h2>Amenities</h2>
+							<ul class="amenities_container">
+								<li class="amenities_item">
+									<div class="icon icon-tv bg-icon"></div>TV
+								</li>
+								<li class="amenities_item">
+									<div class="icon icon-wifi bg-icon"></div>WIFI
+								</li>
+								<li  class="amenities_item">
+									<div class="icon icon-pets bg-icon"></div>Pets Friendly
+								</li>
+							</ul>
+						</div>
+						<div class="reviews grid_item left">
+							<h2>Reviews</h2>
+							<ul class="reviews_container">
+								<li class="reviews_item">
+									<h3>From Henry Spencer the 27th January 2017</h3>
+									<p>Amet et nam aliquam distinctio autem odit Sint repellat voluptatem nostrum incidunt veritatis? Quo atque.
+									</p>
+								</li>
+								<li class="reviews_item">
+									<h3>From Henry Spencer the 27th January 2017</h3>
+									<p>
+										Sit illo debitis voluptates ullam quasi? Beatae sint nesciunt ipsam.
+									</p>
+								</li>
+								<li class="reviews_item">
+									<h3>From Henry Spencer the 27th January 2017</h3>
+									<p>
+										Adipisicing esse sunt ducimus atque nisi! Enim nihil dolores earum sit itaque. Ut optio
+									</p>
+								</li>
+							</ul>
+						</div>
+					</article>
+
+					<article class="places_item grid_ctn">
+						<h2 class="grid_item">A suite</h2>
+						<div class="price_by_night grid_item">$190</div>
+						<div class="information grid_item">
+							<div class="max_guest">
+								<div class="icon bg-icon"></div>
+								4 Guests
+							</div>
+							<div class="number_rooms">
+								<div class="icon bg-icon"></div>
+								2 Bedroom
+							</div>
+							<div class="number_bathrooms">
+								<div class="icon bg-icon"></div>
+								3 Bathroom
+							</div>
+						</div>													
+						<div class="user grid_item left">
+							<p><span class="bold">Owner:</span> ElHaru</p>
+						</div>
+						<div class="description grid_item left">
+							Elit est adipisicing officiis iure placeat Eaque
+							eos sequi quo perspiciatis architecto Excepturi obcaecati possimus
+							cumque provident cum? Incidunt dignissimos soluta aperiam consequatur dolore.
+							Amet obcaecati ratione assumenda iste asperiores?
+						</div>
+						<div class="amenities grid_item left">
+							<h2>Amenities</h2>
+							<ul class="amenities_container">
+								<li class="amenities_item">
+									<div class="icon icon-tv bg-icon"></div>TV
+								</li>
+								<li class="amenities_item">
+									<div class="icon icon-wifi bg-icon"></div>WIFI
+								</li>
+								<li class="amenities_item">
+									<div class="icon icon-pets bg-icon"></div>Pets Friendly
+								</li>
+							</ul>
+						</div>
+						<div class="reviews grid_item left">
+							<h2>Reviews</h2>
+							<ul class="reviews_container">
+								<li class="reviews_item">
+									<h3>From Henry Spencer the 27th January 2017</h3>
+									<p>
+										Amet unde minima doloribus quis quisquam. Voluptatum quod dolorem magnam.
+									</p>
+								</li>
+								<li class="reviews_item">
+									<h3>From Henry Spencer the 27th January 2017</h3>
+									<p>
+										Consectetur ut perspiciatis delectus omnis beatae Et praesentium.
+									</p>
+								</li>
+								<li class="reviews_item">
+									<h3>From Henry Spencer the 27th January 2017</h3>
+									<p>
+										Elit illum mollitia dolores ipsam odit Saepe velit fuga aspernatur!
+									</p>
+								</li>
+							</ul>
+						</div>
+					</article>
+					</div>
+			</section>
+		</div>
+
+		<footer class="footer">
+			Best School
+		</footer>
+	</body>
+</html>

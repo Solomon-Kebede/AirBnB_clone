@@ -1,0 +1,138 @@
+.filters {
+	display: flex;
+	background-color: #FFFFFF;
+	height: 70px;
+	width: 100%;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	border-radius: 4px;
+	align-items: center;
+	justify-content: space-between;
+}
+@media only screen and (min-width: 1011px) {
+	.filters {
+		border: 1px solid #DDDDDD;
+	}
+}
+/*====================================================*/
+/* Styles for the button("search") of filter elements */
+/*====================================================*/
+.filters > button {
+	font-size: 18px;
+	background-color: #FF5A5F;
+	color: #000000;
+	height: 48px;
+	max-width: 224.25px;
+	width: 100%;
+	border: 0;
+	border-radius: 4px;
+	margin-right: 2.5%;
+	padding: 0;
+	cursor: pointer;
+	flex: .5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*
+.filters > button::after {
+	content: "Search";
+}
+*/
+.filters > button:hover {
+	opacity: 90%;
+}
+.filters > button > .icon_search {
+	height: 25px;
+	width: 25px;
+	margin: 2px;
+}
+@media only screen and (max-width: 520px) {
+	.filters > button {
+		flex: none;
+		width: 48px;
+		border-radius: 50%;
+		font-size: 0;
+	}
+	.filters > button::after {
+		content: "";
+	}
+}
+/*=================================*/
+/* Styles for the filters elements */
+/*=================================*/
+.filters .filters_main {
+	display: flex;
+	flex: .5;
+	height: 100%;
+}
+
+.filters .filters_main > .filters_item {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 6%;
+	flex: 1;
+}
+
+.filters .filters_main > .filters_item:first-child {
+	border-right: 1px solid #DDDDDD;
+}
+
+.filters .filters_main h3,
+.filters .filters_main h4 {
+	margin: 0;
+}
+
+.filters .filters_main h3 {
+	font-weight: 600;
+}
+
+.filters .filters_main h4 {
+	font-weight: 400;
+	font-size: 14px;
+}
+@media only screen and (max-width: 648px) {
+	.filters .filters_main {
+		flex: 1;
+	}
+}
+/*=========================================*/
+/* Styles for the list of each filter type */
+/*=========================================*/
+.filters_item .popover {
+	background-color: #FAFAFA;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+}
+.filters_item .popover h2 {
+	margin: 0;
+	font-size: 16px;
+}
+.filters_item .popover > li {
+	padding-top: 20px;
+}
+.filters_item .popover > li > ul {
+	padding: 0;
+	padding-left: 15px;
+}
+.filters_item .popover > li:last-child {
+	padding-bottom: 20px;
+}
+
+.filters .filters_item .popover {
+	display: none;
+	position: absolute;
+	box-sizing: border-box;
+	top: 100%;
+	left: 0px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	padding-left: 15px;
+}
+/* Show on hover */
+.filters .filters_item:hover > ul.popover {
+	display: block;
+}
