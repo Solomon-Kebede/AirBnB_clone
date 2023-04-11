@@ -30,6 +30,7 @@
 	width: 25%;
 	/*margin-left: 5%;*/
 	position: relative;
+	visibility: hidden;
 }
 
 .locations {
@@ -75,14 +76,20 @@ ul > h2 {
 	padding: 8%;
 	position: relative;
 	z-index: 1;
+	display: block;
 }
 
 .amenities {
 	/* margin: -8% auto; */
 	margin-left: 25%;
 	margin-top: -7%;
+	/*visibility: hidden;*/
 }
 
-/*.popover:hover {
-	display: none;
-}*/
+.locations > h3, .locations > h4, .amenities > h3, .amenities > h4 {
+	visibility: visible;
+}
+
+.locations:hover, .amenities:hover {
+	visibility: visible;
+}
