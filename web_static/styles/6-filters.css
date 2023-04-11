@@ -73,6 +73,8 @@ ul > h2 {
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
 	padding: 8%;
+	position: relative;
+	z-index: 1;
 }
 
 .amenities {

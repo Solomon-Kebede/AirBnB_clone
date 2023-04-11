@@ -31,6 +31,8 @@ h2 {
 	font-size: 30px;
 	padding: 3%;
 	margin-left: 12%;
+	position: relative;
+	left: 100;
 }
 
 .price_by_night > h3 {
@@ -53,6 +55,20 @@ h2 {
 .name-price {
 	display: flex;
 	margin-left: 10%;
+}
+
+.name-price > h2 {
+	position: relative;
+	bottom: 25px;
+	left: 90px;
+}
+
+.two-articles > article {
+	margin-left: 35px;
+}
+
+.two-articles > article:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+	left: 70;
 }
 
 .information {
