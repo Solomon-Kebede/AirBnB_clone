@@ -1,0 +1,152 @@
+.places > h1 {
+	font-size: 30px;
+}
+
+article {
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: 1px #910F13 solid;
+	border-radius: 4px;
+}
+
+.two-articles {
+	display: flex;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+}
+
+#suite {
+	margin-left: 25%;
+}
+
+.price_by_night {
+	border: 4px solid #910F13;
+	border-radius: 100%;
+	min-width: 60px;
+	height: 60px;
+	font-size: 30px;
+	padding: 3%;
+	margin-left: 12%;
+	position: relative;
+	left: 100;
+}
+
+.price_by_night > h3 {
+	color: #910F13;
+	position: relative;
+	bottom: 5px;
+	right: 10px;
+}
+
+#suite > .name-price > h2 {
+	margin-left: 15px;
+}
+
+#suite > .name-price > .price_by_night > h3 {
+	padding: 0%;
+	font-size: 100%;
+	margin-top: 15px;
+}
+
+.name-price {
+	display: flex;
+	margin-left: 10%;
+}
+
+.name-price > h2 {
+	position: relative;
+	bottom: 25px;
+	left: 90px;
+}
+
+.two-articles > article {
+	margin-left: 35px;
+}
+
+.two-articles > article:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+	left: 70;
+}
+
+.information {
+	height: 80px;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	display: flex;
+}
+
+.max_guest, .number_rooms, .number_bathrooms {
+	width: 100px;
+	margin-left: 5%;
+}
+
+.max_guest {
+	margin-left: 10%;
+}
+
+#amenities2 {
+	/*margin-top: 40px;*/
+	margin: 0;
+	width: 100%;
+	/*height: 20%;*/
+	height: auto;
+	visibility: visible;
+}
+
+#amenities2 > h2 {
+	font-size: 16px;
+	border-bottom: 1px solid #DDDDDD;
+	text-align: left;
+}
+
+#amenities2 > ul > li {
+	list-style: none;
+}
+
+#amenities2 > ul > li > img {
+	height: 20px;
+	width: 20px;
+	margin-left: -40px;
+}
+
+#amenities2 > ul > li > span {
+	margin-left: 15px;
+}
+
+.reviews {
+	/*margin-top: 40px;*/
+	margin: 0;
+	width: 100%;
+}
+
+.reviews > h2 {
+	font-size: 16px;
+	border-bottom: 1px solid #DDDDDD;
+	text-align: left;
+}
+
+.reviews > ul > li > h3 {
+	margin-left: -10%;
+}
+
+.reviews > ul > li {
+	list-style: none;
+}
+
+.reviews > ul > li > p {
+	margin-left: -10%;
+}
+/*
+.reviews > ul > li > img {
+	height: 20px;
+	width: 20px;
+	margin-left: -40px;
+}
+
+.reviews > ul > li > span {
+	margin-left: 15px;
+}
+*/
