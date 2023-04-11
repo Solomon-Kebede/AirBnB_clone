@@ -58,4 +58,15 @@ h2 {
 .information {
 	height: 80px;
 	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	display: flex;
+}
+
+.max_guest, .number_rooms, .number_bathrooms {
+	width: 100px;
+	margin-left: 5%;
+}
+
+.max_guest {
+	margin-left: 10%;
 }
