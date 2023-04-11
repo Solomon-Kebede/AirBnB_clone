@@ -10,7 +10,15 @@ article {
 	border-radius: 4px;
 }
 
-.places > article > h2 {
-	/*font-size: 30px;*/
+.two-articles {
+	display: flex;
+}
+
+h2 {
+	font-size: 30px;
 	text-align: center;
+}
+
+#suite {
+	margin-left: 25%;
 }

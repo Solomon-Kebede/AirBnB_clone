@@ -29,6 +29,7 @@
 	height: 100%;
 	width: 25%;
 	/*margin-left: 5%;*/
+	position: relative;
 }
 
 .locations {
@@ -59,6 +60,10 @@ h3, h4 {
 h2 {
 	font-size: 16px;
 	color: #484848;
+}
+
+ul > h2 {
+	text-align: left;
 }
 
 .popover {
